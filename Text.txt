@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SeniorHilfe Neumünster</title>
+<style>
+body {
+font-family: Arial;
+background: #f4f6f8;
+text-align: center;
+padding: 50px;
+}
+.box {
+background: white;
+padding: 30px;
+border-radius: 10px;
+max-width: 400px;
+margin: auto;
+box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+button {
+padding: 10px 20px;
+margin: 10px;
+border: none;
+background: #007bff;
+color: white;
+border-radius: 5px;
+}
+</style>
+</head>
+<body>
+<div class="box">
+<h1>SeniorHilfe Neumünster</h1>
+<p>Alltagshilfe für Senioren</p>
+<p>Preis: 20€ pro Stunde</p>
+
+<button onclick="alert('Anfrage gesendet')">
+Service anfragen
+</button>
+
+<button onclick="alert('Registrierung geöffnet')">
+Helfer werden
+</button>
+</div>
+</body>
+</html>
